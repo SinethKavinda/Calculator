@@ -29,9 +29,21 @@ function calc() {
             lbloutput.innerHTML = "Enter valid Operator"
             break;
     }
-    
+     
+}
 
-    
+function num9click() {
+    document.getElementById("num1").value= document.getElementById("num1").value+"9";
+}
 
-    
+function num8click() {
+    document.getElementById("num1").value= document.getElementById("num1").value+"8";
+}
+
+function num7click() {
+    document.getElementById("num1").value= document.getElementById("num1").value+"7";
+}
+
+function num6click() {
+    document.getElementById("num1").value= document.getElementById("num1").value+"6";
 }
